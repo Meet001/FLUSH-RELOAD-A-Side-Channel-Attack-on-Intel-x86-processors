@@ -1,0 +1,5 @@
+map /home/meet/Desktop/gnupg-temp/bin/gpg
+base 0x400000
+offset 0x494b00 S #mpih-mul.c:270 (First cache line in mpih_sqr_n())
+offset 0x4939b5 R #mpih-div.c:329 (Loop in default case in mpihelp_divrem())
+offset 0x494620 M #mpih-mul.c:121 (First cache line of mul_n())

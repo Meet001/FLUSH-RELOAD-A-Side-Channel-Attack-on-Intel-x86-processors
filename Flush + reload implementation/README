@@ -1,0 +1,11 @@
+Instructions to run code.
+
+in ArgFile change the map location of the gpg to location of gpg-1.4.13 executable.
+compile the spy.c code with gcc
+	gcc spy.c -o spy
+
+open two terminals run gpg decryption in window and spy program in second( spy then gpg decryption ).
+
+to run spy:
+	./spy ArgFile <slot-size>
+
